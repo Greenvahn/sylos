@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
-class linkButton extends React.Component {
-  render() {
-    return (
-      <>
-      <button className="btn btn-lg btn-primary">
-        {this.props.text}
+const LinkButton = (props) => {
+  const [count, setCount] = useState(0);
+  const clickMe = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <>
+      <button className="btn btn-lg btn-primary" onClick={clickMe}>
+        {props.text}
       </button>
-      </>
-    );
-  }
-}
+      {count !== 0 ? <p>You clicked {count} times</p> : ""}
+    </>
+  );
+};
 
-export default linkButton;
+export default LinkButton;
