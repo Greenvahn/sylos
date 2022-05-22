@@ -1,4 +1,19 @@
 
+// *:focus {
+//   outline: none;
+//   border: none;
+//   box-shadow: none
+// }
+
+button:focus, .btn:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-color: none
+}
+
+
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+

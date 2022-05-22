@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import generate from "./utils/RandomName";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import LinkButton from "./components/linkButton"
@@ -15,6 +16,12 @@ function App() {
       "url": "https://github.com/Greenvahn"
     }
   ]
+
+  const [name, setName] = useState();
+  const clickMe = (event) => {
+    event.preventDefault();
+    setName(generate());
+  };
   return (
     <div className="d-flex h-100 text-center text-white bg-dark">
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -26,15 +33,14 @@ function App() {
         </header>
 
         <main className="px-3">
-          <h1>Cover your page.</h1>
+          <h3>Name generator</h3>
           <p className="lead">
-            Cover is a one-page template for building simple and beautiful home
-            pages. Download, edit the text, and add your own fullscreen
-            background photo to make it your own.
+            Generate random names
           </p>
           <p className="lead">
-            <LinkButton text="Ramdomize"/>
+            <LinkButton text="Ramdomize" action={clickMe}/>
           </p>
+          <p style={{fontSize: "33px"}}>{name}</p>
         </main>
         <Footer/>
       </div>

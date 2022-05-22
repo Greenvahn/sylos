@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Adalag"
+  },
+  {
+    "name": "Adam"
+  },
+  {
+    "name": "Aevar"
+  },
+  {
+    "name": "Agdi"
+  },
+  {
+    "name": "Agnar"
+  },
+  {
+    "name": "Alfr"
+  },
+  {
+    "name": "Alrek"
+  },
+  {
+    "name": "Alrekr"
+  },
+  {
+    "name": "Anlaf"
+  },
+  {
+    "name": "Anskar"
+  },
+  {
+    "name": "Ardgar"
+  },
+  {
+    "name": "Armod"
+  },
+  {
+    "name": "Arnaldr"
+  },
+  {
+    "name": "Arnar"
+  },
+  {
+    "name": "Arnis"
+  },
+  {
+    "name": "Arnkel"
+  },
+  {
+    "name": "Arnkell"
+  },
+  {
+    "name": "Arnor"
+  },
+  {
+    "name": "Arnridr"
+  },
+  {
+    "name": "Arnstein"
+  },
+  {
+    "name": "Arnvid"
+  },
+  {
+    "name": "Arnvidar"
+  },
+  {
+    "name": "Asbiorn"
+  },
+  {
+    "name": "Asbjorn"
+  },
+  {
+    "name": "Asgrim"
+  },
+  {
+    "name": "Askold"
+  },
+  {
+    "name": "Asvard"
+  },
+  {
+    "name": "Audr"
+  },
+  {
+    "name": "Avaldr"
+  },
+  {
+    "name": "Balder"
+  },
+  {
+    "name": "Bard"
+  },
+  {
+    "name": "Bild"
+  },
+  {
+    "name": "Biolan"
+  },
+  {
+    "name": "Biolfr"
+  },
+  {
+    "name": "Biorn"
+  },
+  {
+    "name": "Bjarkmar"
+  },
+  {
+    "name": "Bjolan"
+  },
+  {
+    "name": "Bjorn"
+  },
+  {
+    "name": "Bodmodr"
+  },
+  {
+    "name": "Bodvar"
+  },
+  {
+    "name": "Bodvarr"
+  },
+  {
+    "name": "Borgar"
+  },
+  {
+    "name": "Brand"
+  },
+  {
+    "name": "Broddr"
+  },
+  {
+    "name": "Brondolf"
+  },
+  {
+    "name": "Dagr"
+  },
+  {
+    "name": "Dyri"
+  },
+  {
+    "name": "Eddval"
+  },
+  {
+    "name": "Egil"
+  },
+  {
+    "name": "Egill"
+  },
+  {
+    "name": "Eidr"
+  },
+  {
+    "name": "Eilaf"
+  },
+  {
+    "name": "Eilif"
+  },
+  {
+    "name": "Einar"
+  },
+  {
+    "name": "Einarr"
+  },
+  {
+    "name": "Emund"
+  },
+  {
+    "name": "Erling"
+  },
+  {
+    "name": "Erlingr"
+  },
+  {
+    "name": "Eyvind"
+  },
+  {
+    "name": "Farulf"
+  },
+  {
+    "name": "Fjalar"
+  },
+  {
+    "name": "Fjolmod"
+  },
+  {
+    "name": "Fjolnir"
+  },
+  {
+    "name": "Fridgeir"
+  },
+  {
+    "name": "Friggir"
+  },
+  {
+    "name": "Galmr"
+  },
+  {
+    "name": "Gardarr"
+  },
+  {
+    "name": "Geirmund"
+  },
+  {
+    "name": "Geirolf"
+  },
+  {
+    "name": "Geirrod"
+  },
+  {
+    "name": "Gellir"
+  },
+  {
+    "name": "Gilling"
+  },
+  {
+    "name": "Glammad"
+  },
+  {
+    "name": "Godfred"
+  },
+  {
+    "name": "Godfrid"
+  },
+  {
+    "name": "Godmund"
+  },
+  {
+    "name": "Godord"
+  },
+  {
+    "name": "Gudbrand"
+  },
+  {
+    "name": "Gudmund"
+  },
+  {
+    "name": "Gudmundr"
+  },
+  {
+    "name": "Gudrod"
+  },
+  {
+    "name": "Gunnar"
+  },
+  {
+    "name": "Gunnarr"
+  },
+  {
+    "name": "Gunnor"
+  },
+  {
+    "name": "Guthorm"
+  },
+  {
+    "name": "Hadding"
+  },
+  {
+    "name": "Halldor"
+  },
+  {
+    "name": "Hallgrim"
+  },
+  {
+    "name": "Hallvard"
+  },
+  {
+    "name": "Hamund"
+  },
+  {
+    "name": "Harald"
+  },
+  {
+    "name": "Havarr"
+  },
+  {
+    "name": "Heidrek"
+  },
+  {
+    "name": "Heimdall"
+  },
+  {
+    "name": "Heimir"
+  },
+  {
+    "name": "Helgrim"
+  },
+  {
+    "name": "Hemming"
+  },
+  {
+    "name": "Hergrim"
+  },
+  {
+    "name": "Hermund"
+  },
+  {
+    "name": "Hermundr"
+  },
+  {
+    "name": "Hervard"
+  },
+  {
+    "name": "Hildir"
+  },
+  {
+    "name": "Holmgeir"
+  },
+  {
+    "name": "Hordr"
+  },
+  {
+    "name": "Hrani"
+  },
+  {
+    "name": "Hromund"
+  },
+  {
+    "name": "Hromundr"
+  },
+  {
+    "name": "Ingimund"
+  },
+  {
+    "name": "Ingimundr"
+  },
+  {
+    "name": "Ingvar"
+  },
+  {
+    "name": "Ingvarr"
+  },
+  {
+    "name": "Jorund"
+  },
+  {
+    "name": "Jorundr"
+  },
+  {
+    "name": "Kiaran"
+  },
+  {
+    "name": "Kodran"
+  },
+  {
+    "name": "Kormak"
+  },
+  {
+    "name": "Leidorf"
+  },
+  {
+    "name": "Lodmund"
+  },
+  {
+    "name": "Magnus"
+  },
+  {
+    "name": "Malcolm"
+  },
+  {
+    "name": "Mani"
+  },
+  {
+    "name": "Moldan"
+  },
+  {
+    "name": "Mord"
+  },
+  {
+    "name": "Nikolas"
+  },
+  {
+    "name": "Nikulas"
+  },
+  {
+    "name": "Oddmar"
+  },
+  {
+    "name": "Ogmund"
+  },
+  {
+    "name": "Ogmundr"
+  },
+  {
+    "name": "Otkar"
+  },
+  {
+    "name": "Ragnald"
+  },
+  {
+    "name": "Ragnar"
+  },
+  {
+    "name": "Ragnarr"
+  },
+  {
+    "name": "Rennir"
+  },
+  {
+    "name": "Runolf"
+  },
+  {
+    "name": "Saemund"
+  },
+  {
+    "name": "Saemundr"
+  },
+  {
+    "name": "Sigfred"
+  },
+  {
+    "name": "Siggurd"
+  },
+  {
+    "name": "Sigmund"
+  },
+  {
+    "name": "Sigmundr"
+  },
+  {
+    "name": "Solmund"
+  },
+  {
+    "name": "Solmundr"
+  },
+  {
+    "name": "Solvarr"
+  },
+  {
+    "name": "Steinar"
+  },
+  {
+    "name": "Steinarr"
+  },
+  {
+    "name": "Sveinn"
+  },
+  {
+    "name": "Thor"
+  },
+  {
+    "name": "Thordar"
+  },
+  {
+    "name": "Thordr"
+  },
+  {
+    "name": "Thorgil"
+  },
+  {
+    "name": "Thorir"
+  },
+  {
+    "name": "Thormod"
+  },
+  {
+    "name": "Thormodr"
+  },
+  {
+    "name": "Thrand"
+  },
+  {
+    "name": "Thrandr"
+  },
+  {
+    "name": "Torrad"
+  },
+  {
+    "name": "Ulf"
+  },
+  {
+    "name": "Valagnar"
+  },
+  {
+    "name": "Valbrandr"
+  },
+  {
+    "name": "Valgard"
+  },
+  {
+    "name": "Vamod"
+  },
+  {
+    "name": "Vandill"
+  },
+  {
+    "name": "Vandrad"
+  },
+  {
+    "name": "Varin"
+  },
+  {
+    "name": "Vemund"
+  },
+  {
+    "name": "Vermund"
+  },
+  {
+    "name": "Vermundr"
+  },
+  {
+    "name": "Vermunds"
+  },
+  {
+    "name": "Vilbradr"
+  },
+  {
+    "name": "Volund"
+  }
+]
