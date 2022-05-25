@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import generate from "./utils/RandomName";
+import generateName from "./utils/RandomName";
+import generateAge from "./utils/RandomAge";
+import generateGender from "./utils/RandomGender";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import LinkButton from "./components/linkButton"
@@ -18,9 +20,14 @@ function App() {
   ]
 
   const [name, setName] = useState();
-  const clickMe = (event) => {
-    event.preventDefault();
-    setName(generate());
+  const [age, setAge] = useState();
+  const [gender, setGender] = useState();
+
+  const clickMe = () => {
+    setName(generateName());
+    setAge(generateAge());
+    console.log(generateGender())
+    setGender(generateGender());
   };
   return (
     <div className="d-flex h-100 text-center text-white bg-dark">
@@ -39,7 +46,11 @@ function App() {
           <p className="lead">
             <LinkButton text="Ramdomize" action={clickMe}/>
           </p>
-          <p style={{fontSize: "33px"}}>{name}</p>
+          {name ? <p style={{fontSize: "32px"}}>{name}</p> : false}
+          <div className="row gx-3 gy-2 align-items-center mx-auto" style={{maxWidth: "365px"}}>
+            <div className="col-sm">{age ? <p style={{fontSize: "22px"}}>Age: {age}</p> : false}</div>
+            <div className="col-sm">{gender ? <p style={{fontSize: "22px"}}>Gender: {gender}</p> : false}</div>
+          </div>
         </main>
         <Footer/>
       </div>
