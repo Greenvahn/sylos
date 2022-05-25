@@ -25,17 +25,16 @@ function App() {
   return (
     <div className="d-flex h-100 text-center text-white bg-dark">
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header className="mb-auto">
+        <header className="mb-5">
           <div>
-            <h3 className="float-md-start mb-0">Sylos</h3>
+            <h3 className="float-md-start mb-0">Sylos <span className="fw-light fs-5">| Profile Generator</span></h3>
             <NavBar links={links}/>
           </div>
         </header>
 
         <main className="px-3">
-          <h3>Name generator</h3>
           <p className="lead">
-            Generate random names
+            Generate random characters
           </p>
           <p className="lead">
             <LinkButton text="Ramdomize" action={clickMe}/>
