@@ -1,6 +1,12 @@
 import places from '../pools/places.json'
 import namedPlaces from '../pools/namedPlaces.json'
 import nickNames from '../pools/nicknames.json'
+import hairTypes from '../pools/hairTypes.json'
+import hairColors from '../pools/hairColors.json'
+import bodyShapes from '../pools/bodyShapes.json'
+import toneTypes from '../pools/toneTypes.json'
+import adjectivePerson from '../pools/adjectivePerson.json'
+import roles from '../pools/roles.json'
 
 
 const storyteller = (name, gender) => {
@@ -32,12 +38,21 @@ const storyteller = (name, gender) => {
   const place = () => { return places[Math.floor(Math.random() * places.length)] }
   const iconicPlace = () => { return namedPlaces[Math.floor(Math.random() * namedPlaces.length)] }
   const nickName = () => { return nickNames[Math.floor(Math.random() * nickNames.length)] }
+  const hairType = () => { return hairTypes[Math.floor(Math.random() * hairTypes.length)] }
+  const hairColor = () => { return hairColors[Math.floor(Math.random() * hairColors.length)] }
+  const bodyShape = () => { return bodyShapes[Math.floor(Math.random() * bodyShapes.length)] }
+  const tone = () => { return toneTypes[Math.floor(Math.random() * toneTypes.length)] }
+  const adjective = () => { return adjectivePerson[Math.floor(Math.random() * adjectivePerson.length)] }
+  const role = () => { return roles[Math.floor(Math.random() * roles.length)] }
 
-  let finalDescription = "";
+ const finalDescription = [];
 
-  const introPhrase = `${name}, born at the ${place().name} from ${iconicPlace().name} is known as ${nickName().name}.`;
+  // TO-DOS
+  // * Add condition for bald characters
 
-  finalDescription += introPhrase
+  const introPhrase = `${nickName().name}, known as ${name}, born at the ${place().name} from the ${iconicPlace().name}.`;
+  const secondPhrase = ` The ${adjective().name} ${role().name} ${gender.pos} ${hairType().name} ${hairColor().name} hair and ${bodyShape().name} body with ${tone().name} skin.`;
+  finalDescription.push({"p": introPhrase + secondPhrase})
   return finalDescription;
 
 }

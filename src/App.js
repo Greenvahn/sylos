@@ -4,6 +4,7 @@ import generateAge from "./utils/RandomAge";
 import generateGender from "./utils/RandomGender";
 import storyteller from "./utils/RandomDescription";
 import NavBar from "./components/navBar";
+import Description from "./components/description";
 import Footer from "./components/footer";
 import LinkButton from "./components/linkButton"
 import "./App.css";
@@ -50,11 +51,11 @@ function App() {
             <LinkButton text="Ramdomize" action={clickMe}/>
           </p>
           {name ? <p style={{fontSize: "32px"}}>{name}</p> : false}
-          <div className="row gx-3 gy-2 align-items-center mx-auto" style={{maxWidth: "365px"}}>
+          <div className="row gx-3 gy-2 align-items-center mx-auto mb-5" style={{maxWidth: "365px"}}>
             <div className="col-sm">{age ? <p style={{fontSize: "22px"}}>Age: {age}</p> : false}</div>
-            <div className="col-sm">{gender ? <p style={{fontSize: "22px"}}>Gender: {gender}</p> : false}</div>
+            <div className="col-sm">{gender ? <p style={{fontSize: "22px"}}>Gender: {gender.gen}</p> : false}</div>
           </div>
-          {name && gender ? <p style={{fontSize: "18px"}} className="mt-5">{storyteller(name, gender)}</p> : false}
+          {name && gender ? <Description text={storyteller(name, gender)} /> : false}
         </main>
         <Footer/>
       </div>
