@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import generateName from "./utils/RandomName";
 import generateAge from "./utils/RandomAge";
 import generateGender from "./utils/RandomGender";
+import storyteller from "./utils/RandomDescription";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import LinkButton from "./components/linkButton"
@@ -22,11 +23,13 @@ function App() {
   const [name, setName] = useState();
   const [age, setAge] = useState();
   const [gender, setGender] = useState();
+  // const nameRef = useRef(name);
+  // const genderRef = useRef(gender);
+  // const [description, setDescription] = useState();
 
   const clickMe = () => {
     setName(generateName());
     setAge(generateAge());
-    console.log(generateGender())
     setGender(generateGender());
   };
   return (
@@ -51,6 +54,7 @@ function App() {
             <div className="col-sm">{age ? <p style={{fontSize: "22px"}}>Age: {age}</p> : false}</div>
             <div className="col-sm">{gender ? <p style={{fontSize: "22px"}}>Gender: {gender}</p> : false}</div>
           </div>
+          {name && gender ? <p style={{fontSize: "18px"}} className="mt-5">{storyteller(name, gender)}</p> : false}
         </main>
         <Footer/>
       </div>
