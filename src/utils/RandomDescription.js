@@ -35,7 +35,7 @@ const storyteller = (name, gender) => {
 
   let finalDescription = "";
 
-  const introPhrase = `${name}, born at ${place().name} from ${iconicPlace().name} is known as ${nickName().name}.`;
+  const introPhrase = `${name}, born at the ${place().name} from ${iconicPlace().name} is known as ${nickName().name}.`;
 
   finalDescription += introPhrase
   return finalDescription;
