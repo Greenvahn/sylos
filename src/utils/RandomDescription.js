@@ -9,6 +9,25 @@ import adjectivePerson from '../pools/adjectivePerson.json'
 import roles from '../pools/roles.json'
 
 
+const masterArray = [{place: places}, {knownPlace: namedPlaces}, {nickName: nickNames}, {hairType: hairTypes}, {hairColour: hairColors}, {body: bodyShapes}, {skin: toneTypes}, {adjectives: adjectivePerson}, {role: roles}];
+console.log("masterARRAY", masterArray)
+
+const picker = (array) => { return array[Math.floor(Math.random() * array.length)] }
+
+
+const profiler = () => masterArray.reduce((result, pool) => {
+  if (pool.place) {
+    result.push({place: picker(pool.place).name})
+  } else if (pool.knownPlace) {
+    result.push({knownPlace: picker(pool.knownPlace).name})
+  }else if (pool.nickName) {
+    result.push({nickName: picker(pool.nickName).name})
+  }
+  return result
+}, [])
+
+
+
 const storyteller = (name, gender) => {
   // 1 - Create pool of phrases
   // 2 - Categorize phrases
@@ -35,6 +54,8 @@ const storyteller = (name, gender) => {
 
   // Pick random place + named-place + nickname
 
+  console.log("profile", profiler())
+
   const place = () => { return places[Math.floor(Math.random() * places.length)] }
   const iconicPlace = () => { return namedPlaces[Math.floor(Math.random() * namedPlaces.length)] }
   const nickName = () => { return nickNames[Math.floor(Math.random() * nickNames.length)] }
@@ -46,6 +67,7 @@ const storyteller = (name, gender) => {
   const role = () => { return roles[Math.floor(Math.random() * roles.length)] }
 
  const finalDescription = [];
+
 
   // TO-DOS
   // * Add condition for bald characters
